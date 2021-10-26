@@ -28,6 +28,7 @@ For each record, daily weather data - a total of 214 days spanning the crop grow
 •	Average Surface Temperature (AvgSur)
 
 
+
 Inputs_others_train.npy:
 
 •	Maturity Group (MG)
@@ -41,15 +42,17 @@ Inputs_others_train.npy:
 •	Location for each performance record.
 
 
+
 Yield_train.npy
 
 •	Yearly crop yield value for each record.
 
 
+
 Inputs_weather_test.npy
 
-	 Daily weather data for each performance record for a total of 214 days (time-steps).
-	 Each day is represented by 7 weather variables – 
+ Daily weather data for each performance record for a total of 214 days (time-steps).
+ Each day is represented by 7 weather variables – 
 	 
 •	ADNI
 
@@ -64,6 +67,7 @@ Inputs_weather_test.npy
 •	MinSur
 
 •	AvgSur
+
 
 
 Inputs_others_test.npy
@@ -82,17 +86,23 @@ REPOSITORY CONTENT:
 •	DataFrames.ipynb
 This file is one of this groups early attempts at figuring out data-related issues for the project. The purpose of this notebook it to take the data which we are given, then clean and shape it in a way that can be useful later. More specifically, the “input_weather” files were given to us in a 3-Dimentional array. To be able to use this information we were required to alter the way this data was structured.
 
+
 •	RoughDraftModel.ipynb
 This file contains this project original model during the rough draft phase of our collaboration. During this time our group was focused on using a linear-regression model to make the crop predictions. This file is no longer used, however has been left in for reference purposes.
+
 
 •	Finalmodel.py
 This file is a python file rather than a notebook. This is the groups final model for the competition. This is the file that is mainly responsible for making our predictions.
 
+
 •	Results.npy
 This is a numpy file which contains our results. The result is an array of all our crop predictions. This file is the one which will be uploaded to the competition’s website.
 
+
 •	rowbycol.csv
 This csv file is no longer used in this project. The purpose of this csv file was so that this group could get a better understanding of the data and do some of our testing in R rather than python.
+
+
 
 ADDITIONAL INFORMATION
 •	More information can be found in a report from last-year’s winners
