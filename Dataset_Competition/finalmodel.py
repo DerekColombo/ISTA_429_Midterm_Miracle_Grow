@@ -206,7 +206,7 @@ mean_list
 
 len(mean_list[0][0])
 
-########n_train_hours = int(len(dataset)*0.80)
+########n_train_hours = int(len(mean_list)*0.80)
 
 combined_df = mean_list
 
