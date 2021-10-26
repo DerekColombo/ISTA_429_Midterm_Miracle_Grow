@@ -1,0 +1,13 @@
+This repository does NOT dontain all of the data required to run the model.
+
+Omitted data sets...
+inputs_weather_test.npy
+inputs_others_train.npy
+inputs_weather_train.npy
+
+Purpose...
+These files are too large to upload to github
+
+Solution...
+Data can be found at this address
+https://eval.ai/web/challenges/challenge-page/1251/overview
