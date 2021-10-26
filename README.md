@@ -26,6 +26,7 @@ Inputs_others_train.npy:
 
 Yield_train.npy
 •	Yearly crop yield value for each record.
+
 Inputs_weather_test.npy
 	 Daily weather data for each performance record for a total of 214 days (time-steps).
 	 Each day is represented by 7 weather variables – 
@@ -36,6 +37,7 @@ Inputs_weather_test.npy
 •	MaxSur
 •	MinSur
 •	AvgSur.
+
 Inputs_others_test.npy
 •	Maturity Group (MG)
 •	Genotype ID
