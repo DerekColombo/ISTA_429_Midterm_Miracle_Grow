@@ -1,21 +1,32 @@
 TEAM NAME: Team Miracle Grow
 
+
 MEMBERS: Ryan Rizzo, Cole McKinley Derek Colombo, Colby Chambers
+
 
 PURPOSE: This repository was made specifically for the MCLA2021 competition. This group participated in MCLA2021 for the purpose of their midterm project in an ISTA class titles “Applied Concepts Cyberinfrastructure.” The contributors of this project include members of this class.
 Additional information on this Machine Learning competition can be found here: https://eval.ai/web/challenges/challenge-page/1251/overview
 Prize Amounts: 1st: $2000, 2nd $1500, 3rd $1000
 
+
 RESOURCES:
 Inputs_weather_train.npy:
 For each record, daily weather data - a total of 214 days spanning the crop growing season (defined April 1 through October 31). Daily weather records were compiled based on the nearest grid point from a gridded 30km product. Each day is represented by the following 7 weather variables - 
+
 •	Average Direct Normal Irradiance (ADNI)
+
 •	Average Precipitation (AP)
+
 •	Average Relative Humidity (ARH)
+
 •	Maximum Direct Normal Irradiance (MDNI)
+
 •	Maximum Surface Temperature (MaxSur)
+
 •	Minimum Surface Temperature (MinSur)
+
 •	Average Surface Temperature (AvgSur)
+
 
 Inputs_others_train.npy:
 •	Maturity Group (MG)
