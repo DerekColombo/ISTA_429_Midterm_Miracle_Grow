@@ -29,31 +29,53 @@ For each record, daily weather data - a total of 214 days spanning the crop grow
 
 
 Inputs_others_train.npy:
+
 •	Maturity Group (MG)
+
 •	 Genotype ID
+
 •	State
+
 •	Year
+
 •	Location for each performance record.
+
 
 Yield_train.npy
+
 •	Yearly crop yield value for each record.
 
+
 Inputs_weather_test.npy
+
 	 Daily weather data for each performance record for a total of 214 days (time-steps).
 	 Each day is represented by 7 weather variables – 
+	 
 •	ADNI
+
 •	AP
+
 •	ARH
+
 •	MDNI
+
 •	MaxSur
+
 •	MinSur
-•	AvgSur.
+
+•	AvgSur
+
 
 Inputs_others_test.npy
+
 •	Maturity Group (MG)
+
 •	Genotype ID
+
 •	State, Year
-•	Location for each performance record.
+
+•	Location for each performance record
+
 
 
 REPOSITORY CONTENT:
