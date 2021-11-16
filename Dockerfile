@@ -10,5 +10,4 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # run the commands for data handling and model handling
-CMD ["python", "./data_handle.py"]
-CMD ["python", "./model_handle.py"]
+CMD ["python", "./Dataset_Competition/finalmodel.py"]
